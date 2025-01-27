@@ -1,1 +1,1 @@
-web: gunicorn chatbot.wsgi:application
+web: gunicorn escaperoom.wsgi --log-file -
